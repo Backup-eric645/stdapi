@@ -1,5 +1,5 @@
 typedef unsigned int size;
-typedef unsigned char* memptr;
+typedef char* memptr;
 void memcpy(memptr src, memptr dst, size length)
 {
     for (size i = 0; i < length; i++)
