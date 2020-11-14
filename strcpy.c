@@ -4,5 +4,5 @@ void strcpy(char* src, char* dst)
 }
 void wstrcpy(char* src, char* dst)
 {
-    memcpy(src, dst, strlen(src)+2);
+    memcpy(src, dst, (wstrlen(src)+1)*2);
 }
